@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.contained {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}

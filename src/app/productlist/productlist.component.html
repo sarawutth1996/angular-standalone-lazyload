@@ -1,0 +1,14 @@
+<div class="contained">
+  <div class="flexCenter">
+    <h1>Product List</h1>
+  </div>
+
+  <ul>
+    <li
+      *ngFor="let product of dummyService.data; let i = index"
+      style="list-style: none"
+    > 
+      <app-productitem [item]="product" [index]="i"></app-productitem>
+    </li>
+  </ul>
+</div>
